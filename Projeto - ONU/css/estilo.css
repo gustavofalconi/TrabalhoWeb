@@ -1,0 +1,402 @@
+.site  {
+     max-width: 1200px;
+     margin: 0 auto;
+     width: 100%;
+ }
+
+ body {
+    font-size: 12pt;
+    background: url(../img/white_wall_hash.png);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }
+
+ header {
+   color: black;
+ }
+
+ .topoSocial {
+    background: #c5192d;
+    padding: 25px;
+    border-bottom: solid 3px;
+    color: #000000;
+ }
+
+ .topoSocial h2 {
+    margin-right: 42%;
+    color: #ffffff;
+    font-size: 1.2em;
+ }
+
+ .topoSocial img {
+   padding-left: 45px;
+ }
+
+ .topoRedeSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .topoMenu {
+    background: rgb(253, 253, 253);
+    padding: 10px;
+    border-bottom: solid 1px;
+    color: #000000; }
+
+ .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .barraMenu {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 40%;
+   border-bottom: solid 2px;
+   border-top: solid 1px;
+ }
+
+ .barra1 {
+   color: #000000;
+   font-weight: bolder;
+   font-size: 1.2em;
+ }
+
+ .menu h2 {
+    font-size: 1.4em;
+    margin-right: 65%;
+ }
+
+ .topico1 {
+   float: left;
+   text-align: justify;
+ }
+
+ .topico1 strong {
+   font-weight: bold;
+   font-size: 1.2em;
+ }
+
+ .topico1 p {
+   font-size: 1em;
+   line-height: 1.5;
+ }
+
+ .topico1 a {
+   color: #c5192d;
+ }
+
+ .topico2 {
+   float: right;
+   text-align: justify;
+   padding-bottom: 50px;
+ }
+
+ .topico2 strong {
+   font-weight: bold;
+   font-size: 1.2em;
+ }
+
+ .topico2 p {
+   font-size: 1em;
+   line-height: 1.5;
+ }
+
+ .topico2 a {
+   color: #c5192d;
+ }
+
+ .logo {
+    text-align: center;
+    padding: 50px;
+ }
+
+ .acesso {
+   padding-right: 42%;
+   padding-top: 20px;
+   font-style: italic;
+   color: gray;
+   font-size: 1em;
+ }
+
+ .acesso1 {
+   padding-left: 25%;
+   padding-top: 40px;
+   font-style: italic;
+   color: gray;
+   font-size: 1em;
+   text-align: justify;
+ }
+
+ .acesso a {
+   color: #c5192db9;
+ }
+
+ .objetivo {
+    padding-left: 12.5%;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.5;
+ }
+
+ .parte1 {
+   padding-top: 60px;
+   background: rgb(253, 253, 253);
+ }
+
+ .problema1 {
+    font-size: 1.2em;
+    line-height: 1.5;
+ }
+
+ .problema1 strong {
+    font-weight: bold;
+ }
+
+ .info img {
+   padding: 0 6%;
+ }
+
+ .paragrafo1 {
+   margin: 0 6%;
+   font-size: 1em;
+   text-align: justify;
+   line-height: 2;
+   padding-bottom: 50px;
+ }
+
+ .paragrafo1 strong {
+   font-size: 1.1em;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: 2px underline;
+}
+
+.graficos {
+   background: url(../img/white_wall_hash.png);
+   padding: 40px 0 40px 0;
+   font-style: italic;
+   line-height: 1.5;
+}
+
+.p1 {
+   text-align: justify;
+   padding-bottom: 30px;
+   font-size: 0.9em;
+   margin-left: 28%;
+}
+
+.p2 {
+   text-align: justify;
+   padding-bottom: 30px;
+   font-size: 0.9em;
+   margin-left: 28%;
+}
+
+.p3 {
+   text-align: justify;
+   padding-bottom: 30px;
+   font-size: 0.9em;
+   margin-left: 18%;
+}
+
+.p4 {
+   text-align: justify;
+   padding-bottom: 30px;
+   font-size: 0.9em;
+   margin-left: 24%;
+}
+
+.p5 {
+   text-align: justify;
+   padding-bottom: 30px;
+   font-size: 0.9em;
+   margin-left: 24%;
+}
+
+.graficos img {
+   margin: 0 auto;
+}
+
+.graficos .slick-prev:before,
+.graficos .slick-next:before{
+    font-size: 30px;
+    opacity: 30;
+    color: rgba(0, 0, 0, 0.830);
+}
+
+.graficos .slick-prev {
+    left: 20px;
+    z-index: 1;
+}
+
+.graficos .slick-next {
+    right: 25px;
+}
+
+.parte2 {
+   padding-top: 60px;
+   background: rgb(253, 253, 253);
+}
+
+ .problema2 {
+   font-size: 1.2em;
+   line-height: 1.5;
+ }
+
+ .problema2 strong {
+    font-weight: bold;
+ }
+
+ .paragrafo2 {
+   margin: 0 6%;
+   font-size: 1em;
+   text-align: justify;
+   line-height: 2;
+   padding-bottom: 30px;
+ }
+
+ .paragrafo2 strong {
+   font-size: 1.1em;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: 2px underline;
+}
+
+.frase {
+   text-align: center;
+ }
+
+ .frase figure {
+   border: solid 2px #000000;
+   background: url(../img/white_wall_hash.png);
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 70px;
+   margin-bottom: 50px;
+   padding-top: 60px;
+   width: 50%;
+}
+
+.frase figure img {
+   width: 75%;
+}
+
+ .frase figcaption {
+   margin-top: 20px;
+   font-style: italic;
+ }
+
+ .salas {
+   background: url(../img/white_wall_hash.png);
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .salas div img{
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .salas .slick-prev::before,
+.salas .slick-next::before {
+    opacity: 0;
+    color: #f2f2f2;
+}
+
+.salas .slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.salas .slick-next {
+    right: 30px;
+}
+
+.salas .slick-dots {
+    bottom: 10px;
+}
+
+.salas .slick-dots li button::before {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.830);
+}
+
+.salas .slicl-dots li.slick-active button::before {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.830);
+}
+
+.orientacao {
+   padding-bottom: 80px;
+}
+
+.material {
+   font-weight: bolder;
+   font-size: 1.2em;
+}
+
+.material a {
+   color: #c5192db9;
+   font-style: italic;
+ }
+
+.educa {
+   display: flex;
+   margin: 0 auto;
+   padding-top: 40px;
+}
+
+.cadastro {
+   text-align: center;
+   padding: 50px 50px;
+}
+
+.cadastro h2 {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 1.2em;
+   text-decoration: 2px underline;
+   padding-bottom: 20px;
+}
+
+.cadastro form input[type="text"],
+.cadastro form input[type="email"],
+.cadastro form input[type="tel"],
+.cadastro form textarea {
+    padding: 6px;
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.cadastro form input[type="submit"] {
+   padding: 10px 35px;
+   background: rgba(128, 128, 128, 0.400);
+   border: solid 2px black;
+   color: black;
+   font-size: 1.2em;
+}
+
+.cadastro form input[type="submit"]:hover {
+   background: black;
+   border: solid 2px gray;
+   color: gray;
+}
+
+.aluno {
+   background: rgba(197, 25, 45, 0.900);
+   padding: 30px;
+   border-top: solid 3px;
+   padding-bottom: 10px;
+}
+
+.aluno p {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-left: 32%;
+   color: #ffffff;
+}
